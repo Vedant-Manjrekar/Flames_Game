@@ -1,4 +1,5 @@
 import React from "react";
+import slash from "../assets/slash.svg";
 
 function Name({ name, uncommonName, isUp }) {
   return (
@@ -16,7 +17,7 @@ function Name({ name, uncommonName, isUp }) {
             ) : (
               <label className='slash absolute w-[6rem] rotate-[45deg] text-red-500 font-extralight'>
                 <img
-                  src='src/assets/slash.svg'
+                  src={slash}
                   className='rotate-[86deg] translate-x-[-1.1rem] translate-y-[3rem] scr'
                   alt=''
                 />
