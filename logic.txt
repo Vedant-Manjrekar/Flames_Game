@@ -1,0 +1,25 @@
+// for (let i = 0; i < guyNameArr.length; i++) {
+    //   counter = 0;
+    //   for (let j = 0; j < girlNameArr.length; j++) {
+    //     if (guyNameArr[i] == girlNameArr[j]) {
+    //       counter++;
+    //     }
+    //   }
+
+    //   if (counter == 0) {
+    //     newArray += guyNameArr[i];
+    //   }
+    // }
+
+    // for (let i = 0; i < girlNameArr.length; i++) {
+    //   counter1 = 0;
+    //   for (let j = 0; j < guyNameArr.length; j++) {
+    //     if (girlNameArr[i] == guyNameArr[j]) {
+    //       counter1++;
+    //     }
+    //   }
+
+    //   if (counter1 == 0) {
+    //     newArray2 += girlNameArr[i];
+    //   }
+    // }

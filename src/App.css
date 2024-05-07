@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Kalam:wght@300;400;700&family=Poetsen+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Poetsen+One&display=swap");
+
+html {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.inp-section {
+  box-shadow: 3px 6px 25px -2px rgba(0, 0, 0, 0.75);
+}
+
+.lettrs {
+  transform: translatey(115px);
+  opacity: 0;
+  transition: transform 0.5s;
+}
+
+.lettrsDn {
+  transform: translatey(-115px);
+  opacity: 0;
+  transition: transform 0.5s;
+}
+
+.slash {
+  top: 0;
+  opacity: 0;
+  transform: translatex(25px);
+}
+
+.dummy-c {
+  opacity: 0;
+}
+
+.dummy-c1 {
+  opacity: 0;
+}
+
+.og-c {
+  opacity: 0;
+}
+
+.scr {
+  filter: invert(26%) sepia(64%) saturate(3136%) hue-rotate(341deg)
+    brightness(80%) contrast(93%);
+}
+
+.cir {
+  filter: invert(26%) sepia(64%) saturate(3136%) hue-rotate(341deg)
+    brightness(80%) contrast(93%);
+}
+
+.flames-w {
+  font-family: "Briem Hand", cursive;
+}
+
+.name {
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  height: 100%;
+}
+
+.main {
+  background-image: url("src/assets/white-crumpled-paper-texture-background-design-space-white-tone.jpg");
+  /* background-image: url("src/assets/crinkled-paper-texture.jpg"); */
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.res {
+  transition: 2s;
+}
