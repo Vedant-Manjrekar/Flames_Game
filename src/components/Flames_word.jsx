@@ -4,6 +4,8 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import Result from "./Result";
 
+import circle from "../assets/circle.svg";
+
 gsap.registerPlugin(useGSAP);
 
 function Flames_word({ result, flames }) {
@@ -91,7 +93,7 @@ function Flames_word({ result, flames }) {
             {index + 1 == result ? (
               <span className='og-c font-extralight font-sans absolute text-[7rem] w-max'>
                 <img
-                  src='src/assets/circle.svg'
+                  src={circle}
                   className='w-[8rem] cir rotate-[-57deg] translate-x-[-3rem] translate-y-[-1rem]'
                   alt=''
                 />
@@ -105,7 +107,7 @@ function Flames_word({ result, flames }) {
               } font-extralight font-sans absolute text-[7rem] translate-y-[-1rem] translate-x-[-2.5rem] w-max`}
             >
               <img
-                src='src/assets/circle.svg'
+                src={circle}
                 className='w-[8rem] cir rotate-[-57deg] translate-x-[-1rem] translate-y-[-0rem]'
                 alt=''
               />
